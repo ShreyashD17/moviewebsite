@@ -1,0 +1,48 @@
+/* Top part  */
+.top {
+    /* width: auto; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-part {
+    margin-left: 0px;
+}
+.search-part {
+    margin-right: 0px;
+    margin-bottom: 7px;
+}
+
+/* Middle part  */
+
+.middle {
+    padding-top: 5rem;
+    flex-direction: column;
+}
+.options {
+    padding-left: 0px;
+    font-size: 0.8em;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+/* .image {
+    width: 10em;
+    height: 11rem;
+} */
+
+/* Movies part */
+
+#cards {
+    margin-left: 0px;
+}
+/*.card {
+    width: 10em;
+    margin: 2rem;
+    padding: 5px;
+} */
