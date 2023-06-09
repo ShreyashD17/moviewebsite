@@ -61,7 +61,7 @@
 }
 
 .options {
-    /* position: fixed; */
+    position: fixed;
     padding-top: 3rem;
     padding-left: 50px;
     width: 9rem;
@@ -86,7 +86,7 @@
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 0.8rem;
+    margin-left: 12rem;
     justify-content: center;
 }
 
