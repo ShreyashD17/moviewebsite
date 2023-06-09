@@ -20,6 +20,7 @@
     flex-direction: column;
 }
 .options {
+    position: unset;
     padding-left: 0px;
     font-size: 0.8em;
     flex-direction: row;
