@@ -1,12 +1,10 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
-    /* position: relative; */
 }
 
 .top {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     background-color:#0850ff;
     height: 90px;
@@ -56,37 +54,51 @@
 /* Main Section */
 
 .middle {
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
     display: flex;
 }
 
 .options {
-    position: fixed;
+    /* position: fixed; */
     padding-top: 3rem;
     padding-left: 50px;
     width: 9rem;
-    /* background-color: #a3c2c8; */
     background-size: cover;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
 
 }
 
 .options a {
+    display: block;
+    width: 140px;
     text-decoration: none;
-    padding: 20px 10px;
+    padding-left: 5px;
+}
+
+.options > div {
+    padding: 0.5rem 0px;
+}
+
+.options > div:hover {
+    background-color: black;
+    
+}
+
+.options > div a:hover {
+    color: white;
 }
 
 /* Movies part */
 
 #cards {
+    width: 100%;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 12rem;
     justify-content: center;
 }
 
@@ -94,10 +106,12 @@
     background-color: rgb(232, 169, 124);
     padding: 5px;
     border: 2px solid rgb(255, 144, 144);
-    margin: 3rem;
-    width: 20rem;
-    overflow:visible;
+    margin: 4rem 2rem 2rem 2rem;
+    width: 15rem;
+    /* overflow:hidden;  */
+    position: relative;
 }
+
 
 .title {
     padding-top: 5px;
@@ -111,13 +125,29 @@
     font-size: 1.2rem;
 }
 
+strong {
+    font-size: 1.2rem;
+}
+
 .overview {
-    font-family: 'PT Serif', serif;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    width: 220px;
+    transition: transform 0.3s ease-in;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.overview:hover {
+    cursor: pointer;
+    opacity: 1;
 }
 
 .image {
-    width: 20rem;
-    height: 25rem;
+    width: 15rem;
+    height: 20rem;
 }
 
 
