@@ -1,6 +1,5 @@
 /* Top part  */
 .top {
-    /* width: auto; */
     flex-direction: column;
     align-items: center;
 }
@@ -16,34 +15,34 @@
 /* Middle part  */
 
 .middle {
-    padding-top: 5rem;
     flex-direction: column;
 }
 .options {
-    position: unset;
+    /* position: unset; */
     padding-left: 0px;
-    font-size: 0.8em;
+    font-size: 0.6em;
     flex-direction: row;
     gap: 0px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin: auto;
-    padding-bottom: 15px;
-    padding-top: 20px;
+    padding-bottom: 9px;
+    padding-top: 15px;
+    width: auto;
 }
 
-/* .image {
-    width: 10em;
-    height: 11rem;
-} */
+.option {
+    display: inline;
+    width: 46px;
+    margin: 0px 2px;
+}
+
+.options a {
+    width: auto;
+}
 
 /* Movies part */
 
 #cards {
     margin-left: 0px;
 }
-/*.card {
-    width: 10em;
-    margin: 2rem;
-    padding: 5px;
-} */
+
