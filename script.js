@@ -45,7 +45,7 @@ function getMovies(url)
               <img src="https://image.tmdb.org/t/p/w500/${value.poster_path}" alt="" class="image">
               <h2 class="title">${value.title}</h2>
               <p class= "rating">Rating : ${value.vote_average}</p>
-              <p class="overview">${value.overview}</p>
+              <p class="overview"><strong style="display: block;">Overview :</strong> ${value.overview}</p>
               </div>`
     });
     document.getElementById("cards").innerHTML=data1;
