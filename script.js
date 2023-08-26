@@ -7,7 +7,7 @@ getMovies(mainurl);
 
 
 //Function to get movies after search
-
+//
 
 //const moviesContainer = document.getElementById("cards");
 
